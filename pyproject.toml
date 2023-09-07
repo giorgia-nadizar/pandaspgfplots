@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pandaspgfplots"
+version = "0.0.1"
+authors = [
+    { name = "Giorgia Nadizar", email = "giorgia.nadizar@gmail.com" },
+]
+description = "A collection of methods to export data from a pandas dataframe for making LaTeX pgfplots."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/giorgia-nadizar/pandaspgfplots"
+"Bug Tracker" = "https://github.com/giorgia-nadizar/pandaspgfplots/issues"
